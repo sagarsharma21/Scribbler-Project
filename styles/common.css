@@ -1,0 +1,48 @@
+body{
+background-color: rgb(255, 255, 255);
+font-size: medium;
+}
+
+#header{
+    padding: 20px;
+}
+
+
+h2{
+color: blue;
+font-weight: 300;
+font-family: 'Montez',cursive;
+font-size: 28pt;
+}
+
+h3{
+font-size: smaller;
+}
+
+.hbtn{
+
+    color: white;
+    background-color: blue;
+   }
+   
+#hbtn1{
+    position: absolute;
+    top: 1%;
+    right:116px;
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+    padding-left: 20px ;
+    padding-right: 20px;
+    
+}
+#hbtn2{
+    position: absolute;
+    top: 1%;
+    right: 16px;
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+    padding-left: 20px ;
+    padding-right: 20px;
+   
+}
+
