@@ -3,64 +3,69 @@
     width: 80%;
   }
 
-  .post-title {
+.post-title {
     text-align: center;
     font-weight: bold;
     font-size: 24px;
     margin-bottom: 24px;
   }
 
-  #author {
+#author {
     font-size: 18px;
   }
 
-  .btn-common,
-  .btn-common:hover,
-  .btn-common:focus {
+.btn-common,
+.btn-common:hover,
+.btn-common:focus {
     border-radius: 0;
     background-color: red;
     border: none;
     padding: 5px 15px;
   }
 
-  .editable {
+.editable {
     outline: 1px solid pink;
   }
 
-  .author-edit-text {
+.author-edit-text {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
   }
 
-  .post-content {
+.post-content {
     margin-bottom: 20px;
   }
 
-  #likeText {
+#likeText {
     margin-top: 5px;
     margin-bottom: 20px;
   }
 
-  #commentBox {
+#commentBox {
     width: 100%;
     min-height: 100px;
   }
 
-  .comment-button {
+.comment-button {
     margin-bottom: 20px;
   }
 
-  .all-comments {
+.all-comments {
     font-weight: bold;
   }
 
-  #comments-wrapper {
+#comments-wrapper {
     background-color: lightgray;
     padding: 20px 5px;
   }
-  
-  #comments-wrapper p {
+
+#comments-wrapper p {
     background-color: white;
     padding: 20px 10px;
   }
+
+
+
+
+
