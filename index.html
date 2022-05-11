@@ -102,7 +102,50 @@
         </div>
       </div>
 
-<!--End of body element-->
+
+      <!-- The Sign In Modal -->
+      <div id="signInModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close-icon" id="closeSignIn" ><i class="fa fa-times fa-lg" aria-hidden="true"></i>
+            </span>
+            <h2 class="modal-heading">Welcome Back!</h2>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="username">Username</label>
+                <input
+                type="text"
+                class="form-control"
+                id="username"
+                placeholder="Enter your username"
+                required="true"/>
+              </div>
+              <div class="form-group">
+                <label for="pwd">Password</label>
+                <input
+                type="password"
+                class="form-control"
+                id="pwd"
+                placeholder="Enter your password"
+                required="true"/>
+              </div>
+              <button type="submit" class="btn btn-block btn-success">
+              Sign In
+              </button>
+              <p class="not-member">
+              Not a member?<span id="signUpLink">Sign Up 
+              </span>
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+<!--End of code for Modal Box-->
+
 </body>
 
 </html>
