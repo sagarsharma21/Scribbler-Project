@@ -24,4 +24,20 @@ body {
     border: none;
    }
   
+
+  #createPost .modal-content {
+    width: 85%;
+    margin: 3% auto;
+  }
+  
+  #createPost .modal-content .create-btn-tab .btn {
+    padding: 5px 25px;
+    border-radius: 0;
+  }
+  #createPost .modal-content .contents {
+    min-height: 300px;
+  }
+  #createPost .modal-content .create-btn-tab {
+    text-align: center;
+  }
    

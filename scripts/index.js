@@ -1,43 +1,21 @@
-// Get the button for the modal
-var signUpLink = document.getElementById("signUpLink");
-var signUpBtn = document.getElementById("signUp");
-var signInBtn = document.getElementById("signIn");
 
-// Get the signup modal
-var signUpModal = document.getElementById("modal-signUp");
-var signInModal = document.getElementById("signInModal");
+//Get the button that opens Create Post
+var createPostBtn = document.getElementById("createPostBtn");
 
-// Close the modal
-var closeSignIn = document.getElementById("closeSignIn");
-var closeSignUp = document.getElementById("closeSignUp");
+//Get the button to close the modal
+var closeCreatePost = document.getElementById("createPost-close");
 
-// Open the modal on click
-signUpBtn.addEventListener("click", () => openModal(signUpModal));
-signInBtn.addEventListener("click", () => openModal(signInModal));
+//Get the button that opens Create Post modal
+var createPostModal = document.getElementById("createPost");
 
-// Close the modal on click
-closeSignIn.addEventListener("click", () => closeModal(signInModal));
-closeSignUp.addEventListener("click", () => closeModal(signUpModal));
 
-signUpLink.onclick = function() {
-    closeModal(signInModal);
-    openModal(signUpModal);
-  };
+closeCreatePost.addEventListener("click", () => closeModal(createPostModal));
 
-  //Close the modal when user clicks anywhere outside the box
+createPostBtn.addEventListener("click", () => openModal(createPostModal));
+
+//Close the modal when user clicks anywhere  outside the modal
 window.addEventListener("click", function(event) {
-  if (event.target == signUpModal) {
-    signUpModal.style.display = "none";
-  }
-  if (event.target == signInModal) {
-    signInModal.style.display = "none";
+  if (event.target == createPostModal) {
+    createPostModal.style.display = "none";
   }
 });
-
-openModal = modal => {
-  modal.style.display = "block";
-};
-
-closeModal = modal => {
-  modal.style.display = "none";
-};
