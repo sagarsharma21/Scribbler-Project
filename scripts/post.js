@@ -14,7 +14,8 @@ document.addEventListener(
   "click",
   function(e) {
     if (hasClass(e.target, "saved")) {
-      // edit button clicked
+     
+        // Event when Edit button clicked
       e.target.classList.remove("saved");
       e.target.classList.add("unsaved");
       e.target.innerHTML = 'Save <i class="fa fa-save"></i>';
@@ -23,7 +24,8 @@ document.addEventListener(
       contentEle.setAttribute("contenteditable", true);
       contentEle.classList.add("editable");
     } else if (hasClass(e.target, "unsaved")) {
-      // save button clicked
+     
+        // Event when Save button clicked
       e.target.classList.remove("unsaved");
       e.target.classList.add("saved");
       e.target.innerHTML = 'Edit <i class="fa fa-edit"></i>';
@@ -31,11 +33,13 @@ document.addEventListener(
       titleEle.classList.remove("editable");
       contentEle.setAttribute("contenteditable", false);
       contentEle.classList.remove("editable");
+     
       // Updating Session storage on Save to reflect correct data if only this page is refreshed
       sessionStorage.setItem("postTitle", titleEle.innerText);
       sessionStorage.setItem("postContent", contentEle.innerText);
     } else if (hasClass(e.target, "like-button")) {
-      // Like Button Clicked
+     
+        // Event when Like Button Clicked
       likeNo++;
       e.target.innerHTML = '<i class="fa fa-thumbs-up"></i> Liked';
       if (likeNo == 1) {
