@@ -1,3 +1,4 @@
+//Script files for Pst functionality
 var titleEle = document.getElementById("postTitle");
 var contentEle = document.getElementById("postContent");
 var authorEle = document.getElementById("author");
