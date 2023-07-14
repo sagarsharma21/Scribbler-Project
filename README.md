@@ -22,9 +22,9 @@
 <!--https://user-images.githubusercontent.com/61516051/117543060-d994d900-b038-11eb-8e3c-cdcef2cce735.mp4-->
 
 <p align="center">
-    <a href="https://github.com/Ashish2030/Scribbler-Project" target="blank">View Demo</a>
+    <a href="https://github.com/sagarsharma21/Scribbler-Project" target="blank">View Demo</a>
     ·
-    <a href="https://github.com/ashish2030/Scribbler-Project/issues/new/choose">Report Bug</a>
+    <a href="https://github.com/sagarsharma21/Scribbler-Project/issues/new/choose">Report Bug</a>
     ·
-    <a href="https://github.com/ashish2030/Scribbler-Project/issues/new/choose">Request Feature</a>
+    <a href="https://github.com/sagarsharma21/Scribbler-Project/issues/new/choose">Request Feature</a>
 </p>
